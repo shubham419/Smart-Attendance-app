@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainFragment.TimeTable"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/expandView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/todayView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/todayTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="7dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="2dp"
+            android:text="Monday"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:layout_marginBottom="4dp"
+            />
+
+
+        <ImageView
+            android:id="@+id/pickerArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:paddingStart="7dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="2dp"
+            android:src="@drawable/ic_down_arrow" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/dayView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/monday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:paddingStart="7dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="2dp"
+            android:text="Monday"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tuesday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:paddingStart="7dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="2dp"
+            android:text="Tuesday"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/wednesday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:paddingStart="7dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="2dp"
+            android:text="Wednesday"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/thursday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:paddingStart="7dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="2dp"
+            android:text="Thursday"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/friday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:paddingStart="7dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="2dp"
+            android:text="Friday"
+            android:textSize="17sp" />
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F1EFEF"
+        android:elevation="1dp"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

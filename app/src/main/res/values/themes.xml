@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SmartAttendance" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q"> false </item>
+
+        <item name="colorPrimary">@color/primaryColor</item>
+<!--        @color/purple_500-->
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+<!--        @color/purple_700-->
+        <item name="colorOnPrimary">@color/black</item>
+<!--        @color/white-->
+
+
+
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+<!--        @color/teal_200-->
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+<!--        @color/teal_700-->
+        <item name="colorOnSecondary">@color/black</item>
+<!--        @color/black-->
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+
+
+
+</resources>

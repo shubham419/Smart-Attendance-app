@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#62efff</color>
+    <color name="purple_500">#00BCD4</color>
+    <color name="purple_700">#008ba3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+<!--    theme color-->
+    <color name="primaryColor">#009870</color>
+
+    <color name="primaryLightColor">#50ca9e</color>
+
+    <color name="primaryDarkColor">#006945</color>
+
+    <color name="secondaryColor">#ffe082</color>
+
+    <color name="secondaryLightColor">#ffffb3</color>
+
+    <color name="secondaryDarkColor">#caae53</color>
+
+    <color name="primaryTextColor">#000000</color>
+
+    <color name="secondaryTextColor">#000000</color>
+    <!--    theme color-->
+
+
+    <color name="orange_absent_color">#fe5722</color>
+    <color name="green_absent_color">#00796a</color>
+    <color name="blue">#22c9fe</color>
+    <color name="purple">#6a0079</color>
+    <color name="login_activity_bg">#11CFC5</color>
+    <color name="attendanceSessionActivity">#F5F5F5</color>
+
+<!--    login activity-->
+    <color name="colorAccent">#FBB034</color>
+    <color name="colorText">#504F60</color>
+<!--    login activity-->
+
+</resources>

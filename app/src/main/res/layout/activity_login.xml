@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#11CFC5"
+    tools:context=".Activity.LoginActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Welcome!"
+        android:textColor="@color/white"
+        android:textSize="45sp"
+        />
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="Hope we add value..."
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="-3dp"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        />
+    <ImageView
+        android:layout_width="315dp"
+        android:layout_height="215dp"
+        android:layout_marginTop="-65dp"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="right"
+        app:srcCompat="@drawable/ic_poster" />
+
+    <EditText
+        android:id="@+id/userNameEt"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:background="@drawable/bg_txt_username"
+        android:fontFamily="@font/montserrat_semibold"
+        android:paddingLeft="60dp"
+        android:paddingRight="30dp"
+        android:hint="Name of user"
+        android:layout_marginTop="45dp"
+        android:textColor="@color/colorText"
+        android:focusable="true"
+        android:textSize="40px"
+        android:inputType="textPersonName"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/loginFab"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_forward"
+        android:layout_gravity="right"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/white"
+        />
+
+
+
+</LinearLayout>
