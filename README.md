@@ -7,5 +7,7 @@ It has a clean and elegant UI which is user-friendly.
 - To alter the traditional method by morden technology.
 
 # Overall Features
-### Attendance session 
-If teacher is logged in then under attendance tab
+### Attendance Session 
+If teacher is logged in then under attendance tab he/she gets an button to take attendance of student. When the button is pressed by teacher the attendance session start.
+Attendance session is divided in three stage (each stage of 30 second).
+If student is logged in then under attendance tab he/she 
