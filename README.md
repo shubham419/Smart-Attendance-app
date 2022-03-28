@@ -10,11 +10,10 @@ It has a clean and elegant UI which is user-friendly.
 ### Attendance Session 
 If teacher is logged in then under attendance tab he/she gets a button to take attendance of student. When the button is clicked by teacher the attendance session start.
 
-![](images/IMG_20220327_150137.jpg)
+![](images/screen_shot_1.png)
 
 If student is logged in and attendance session is not started then under attendance tab he/she can't see give attendance button.
 
-![](images/IMG_20220328_123048.jpg)
 
 Attendance session is divided in three stage (each stage of 10 second).
 
