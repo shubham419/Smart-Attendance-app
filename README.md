@@ -16,5 +16,4 @@ If student is logged and attendance session is not started then under attendance
 
 
 ![](images/IMG_20220327_150137.jpg)
-
 ![](images/IMG_20220328_123048.jpg)
