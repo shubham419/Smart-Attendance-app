@@ -7,7 +7,12 @@ It has a clean and elegant UI which is user-friendly.
 - To alter the traditional method by morden technology.
 
 # Overall Features
-### Attendance Session 
+## 1. Security
+No user can login without admin permission wether he/she has correct credentials.
+
+
+
+## 2. Attendance Session 
 If teacher is logged in then under attendance tab he/she gets a button to take attendance of student. When the button is clicked by teacher the attendance session start.
 
 If student is logged in and attendance session is not started then under attendance tab he/she can't see give attendance button.
@@ -32,7 +37,7 @@ At end, teacher also get right to make any student present or absent.
 ![](images/screen_shot_4.png)
 
 
-### Student's Vote
+## 3. Student's Vote
 It is small try to make student aware the importance of vote by  providing them platform. 
 A platform which empower student, which give them freedom to raise any problem without any fear, which completely protect their identity.
 ###### Algorithm
@@ -40,4 +45,24 @@ platform work's on algorithm which promote the problem based on vote that it rec
 
 ![](images/screen_shot_5.png)
 
+## 4. Attractive Scheudle
+The problem which i personally faced was checking next lecture in pdf. We try to solve these problem by providing elegant user interface.
+every time when i check next lecture in app it really feels satisfide.
+
+![](images/screen_shot_6.png)
+
+# Tools and Technologies
+Front-end:- XML
+
+
+Back-end:- Java
+
+
+Database:- Firebase
+
+
+IDE:- Android Studio
+
+# Contribution
+You are always Welcomed with great respect to contribute in project by improving existing features, adding new features, sloving issue, reporting bug's, creative concept and in many more ways. Happy to see some pull requests!
 
