@@ -21,8 +21,8 @@ If student is logged in and attendance session is not started then under attenda
 
 only techer's can start attendance session.  Attendance session is divided in three stages (each stage of 10 second).
 ###### stages
-at these stage (give attendance) button is visible at student's end just for 10 second. Those student which are present in class knows it and they click button.
-after that, stage 2 begine automatically. at these stage student has to choose one correct number out of four which is tell to them by teacher and in last stage they have to choose correct letter which is also told to them by teacher. Those student who clear all the stages are marked as present.
+At first stage (give attendance) button is visible at student's end just for 10 second. Those student which are present in class knows it and they click button.
+after that, stage 2 begine automatically. At these stage student has to choose one correct number out of four which is told to them by teacher and in last stage they have to choose correct letter which is also told to them by teacher. Those student who clear all the stages are marked as present.
 
 ![](images/screen_shot_3.png)
 
